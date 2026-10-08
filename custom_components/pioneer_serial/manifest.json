@@ -1,0 +1,9 @@
+{
+  "domain": "pioneer_serial",
+  "name": "Pioneer VSX (RS-232 bridge)",
+  "codeowners": [],
+  "documentation": "https://github.com/Eriobis/pioneer-vsx-hs-integration",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "1.0.0"
+}

@@ -1,0 +1,14 @@
+# Pioneer VSX-9130 RS-232 bridge -> Home Assistant custom component pioneer_serial
+services:
+  pioneer-bridge:
+    build: .
+    image: pioneer-bridge:local
+    container_name: pioneer-bridge
+    restart: unless-stopped
+    devices:
+      - /dev/serial/by-id/usb-Prolific_Technology_Inc._Dtech_USB-Serial_Controller_00000005-if00-port0:/dev/ttyUSB0
+    ports:
+      - "8102:8102"
+    logging:
+      driver: json-file
+      options: {max-size: 5m, max-file: "2"}
