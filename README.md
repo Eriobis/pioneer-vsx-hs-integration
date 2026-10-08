@@ -346,3 +346,7 @@ actions:
 Made with AI: written by Claude (Anthropic) through Claude Code, together with
 the repository owner, who supplied the hardware, testing and requirements.
 Not affiliated with Pioneer, Onkyo or Home Assistant.
+
+## License
+
+[MIT](LICENSE): free to use, modify and redistribute, with no warranty.
